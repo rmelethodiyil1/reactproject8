@@ -70,7 +70,7 @@ function HeaderLoggedIn(props) {
 
   const signOut = (ouser,opass) =>{
 	   console.log('logging out user ' , ouser , ' with pass ' , opass)
-	   axios.get('http://localhost:8080/logout', {
+	   axios.get('https://18.222.37.86:8080/logout', {
 				headers: {
 				'Authorization': `Basic ${authtoken(ouser,opass)}`
 				}
