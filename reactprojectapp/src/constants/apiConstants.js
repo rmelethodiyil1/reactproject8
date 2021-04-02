@@ -1,1 +1,1 @@
-export const API_BASE_URL = 'https://18.222.37.86:8080/galaxy/';
+export const API_BASE_URL = 'https://34.69.235.27:8080/galaxy/';
